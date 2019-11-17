@@ -3,29 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E21CD8A62372ECBE00515C4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8A52372ECBE00515C4C /* AppDelegate.swift */; };
 		E21CD8A82372ECBE00515C4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8A72372ECBE00515C4C /* SceneDelegate.swift */; };
-		E21CD8AA2372ECBE00515C4C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8A92372ECBE00515C4C /* FirstViewController.swift */; };
-		E21CD8AC2372ECBE00515C4C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8AB2372ECBE00515C4C /* SecondViewController.swift */; };
+		E21CD8AA2372ECBE00515C4C /* MianPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8A92372ECBE00515C4C /* MianPageVC.swift */; };
+		E21CD8AC2372ECBE00515C4C /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CD8AB2372ECBE00515C4C /* GroupsVC.swift */; };
 		E21CD8AF2372ECBE00515C4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21CD8AD2372ECBE00515C4C /* Main.storyboard */; };
 		E21CD8B12372ECBE00515C4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21CD8B02372ECBE00515C4C /* Assets.xcassets */; };
 		E21CD8B42372ECBE00515C4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21CD8B22372ECBE00515C4C /* LaunchScreen.storyboard */; };
+		E21CD8C12372EE7B00515C4C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E21CD8C02372EE7B00515C4C /* GoogleService-Info.plist */; };
+		E23641CD23738F16002CF3D9 /* AuthServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23641CC23738F16002CF3D9 /* AuthServices.swift */; };
+		E2686E1F2374E82300C6AD43 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2686E1E2374E82300C6AD43 /* ProfileVC.swift */; };
+		E2753B492375AD8C002D9D8E /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2753B482375AD8C002D9D8E /* CreatePostVC.swift */; };
+		E2753B4B2375B258002D9D8E /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2753B4A2375B258002D9D8E /* Extension.swift */; };
+		E29BEAD32376D9E300EF3C9D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29BEAD22376D9E300EF3C9D /* PostCell.swift */; };
+		E29BEAD52376DDEB00EF3C9D /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29BEAD42376DDEB00EF3C9D /* Message.swift */; };
+		E29D84AC2380B10300B89493 /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D84AB2380B10300B89493 /* GroupFeedCell.swift */; };
+		E29D84AE2380B12900B89493 /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29D84AD2380B12900B89493 /* GroupFeedVC.swift */; };
+		E2A939342372F5DF000B60C4 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A939332372F5DF000B60C4 /* DataServices.swift */; };
+		E2AFEAD2237AF8C40094BA33 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AFEAD1237AF8C40094BA33 /* GroupCell.swift */; };
+		E2C17A6223736BBD00968EFF /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C17A6123736BBD00968EFF /* ShadowView.swift */; };
+		E2E5DEA0237B6AF900ADD851 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5DE9F237B6AF900ADD851 /* Group.swift */; };
+		E2EF924D237353B200E5EFDA /* MianVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF924C237353B200E5EFDA /* MianVC.swift */; };
+		E2EF924F2373540700E5EFDA /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF924E2373540700E5EFDA /* LoginVC.swift */; };
+		E2EF92512373546500E5EFDA /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EF92502373546500E5EFDA /* CustomTF.swift */; };
+		E2F5434F2378B6DA00614F5C /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5434E2378B6DA00614F5C /* CreateGroupVC.swift */; };
+		E2F543512378C3E200614F5C /* CreateGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F543502378C3E200614F5C /* CreateGroupCell.swift */; };
+		F0D90C0C5519AD88A8951147 /* Pods_pointchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420370C66D70C215BA22E6AB /* Pods_pointchat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		351B535AA9731BC30A69CE0B /* Pods-pointchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pointchat.debug.xcconfig"; path = "Target Support Files/Pods-pointchat/Pods-pointchat.debug.xcconfig"; sourceTree = "<group>"; };
+		420370C66D70C215BA22E6AB /* Pods_pointchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pointchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA573FDB780093D0A968EE3 /* Pods-pointchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pointchat.release.xcconfig"; path = "Target Support Files/Pods-pointchat/Pods-pointchat.release.xcconfig"; sourceTree = "<group>"; };
 		E21CD8A22372ECBD00515C4C /* pointchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21CD8A52372ECBE00515C4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21CD8A72372ECBE00515C4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E21CD8A92372ECBE00515C4C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E21CD8AB2372ECBE00515C4C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E21CD8A92372ECBE00515C4C /* MianPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianPageVC.swift; sourceTree = "<group>"; };
+		E21CD8AB2372ECBE00515C4C /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		E21CD8AE2372ECBE00515C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E21CD8B02372ECBE00515C4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21CD8B32372ECBE00515C4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E21CD8B52372ECBE00515C4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21CD8C02372EE7B00515C4C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E23641CC23738F16002CF3D9 /* AuthServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServices.swift; sourceTree = "<group>"; };
+		E2686E1E2374E82300C6AD43 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E2753B482375AD8C002D9D8E /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		E2753B4A2375B258002D9D8E /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		E29BEAD22376D9E300EF3C9D /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E29BEAD42376DDEB00EF3C9D /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E29D84AB2380B10300B89493 /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
+		E29D84AD2380B12900B89493 /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		E2A939332372F5DF000B60C4 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		E2AFEAD1237AF8C40094BA33 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		E2C17A6123736BBD00968EFF /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		E2E5DE9F237B6AF900ADD851 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		E2EF924C237353B200E5EFDA /* MianVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianVC.swift; sourceTree = "<group>"; };
+		E2EF924E2373540700E5EFDA /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E2EF92502373546500E5EFDA /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		E2F5434E2378B6DA00614F5C /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		E2F543502378C3E200614F5C /* CreateGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +73,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D90C0C5519AD88A8951147 /* Pods_pointchat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38AD1BB796DF1A532FB8E7A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				420370C66D70C215BA22E6AB /* Pods_pointchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44A73E994508323DADC9BAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				351B535AA9731BC30A69CE0B /* Pods-pointchat.debug.xcconfig */,
+				5BA573FDB780093D0A968EE3 /* Pods-pointchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E21CD8992372ECBD00515C4C = {
 			isa = PBXGroup;
 			children = (
 				E21CD8A42372ECBE00515C4C /* pointchat */,
 				E21CD8A32372ECBD00515C4C /* Products */,
+				C44A73E994508323DADC9BAE /* Pods */,
+				38AD1BB796DF1A532FB8E7A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +118,74 @@
 		E21CD8A42372ECBE00515C4C /* pointchat */ = {
 			isa = PBXGroup;
 			children = (
+				E21CD8BF2372ECE500515C4C /* Services */,
+				E21CD8BE2372ECE100515C4C /* Helper */,
+				E21CD8BD2372ECDC00515C4C /* Model */,
+				E21CD8BC2372ECD800515C4C /* View */,
+				E21CD8BB2372ECCE00515C4C /* Controller */,
 				E21CD8A52372ECBE00515C4C /* AppDelegate.swift */,
 				E21CD8A72372ECBE00515C4C /* SceneDelegate.swift */,
-				E21CD8A92372ECBE00515C4C /* FirstViewController.swift */,
-				E21CD8AB2372ECBE00515C4C /* SecondViewController.swift */,
 				E21CD8AD2372ECBE00515C4C /* Main.storyboard */,
 				E21CD8B02372ECBE00515C4C /* Assets.xcassets */,
 				E21CD8B22372ECBE00515C4C /* LaunchScreen.storyboard */,
 				E21CD8B52372ECBE00515C4C /* Info.plist */,
+				E21CD8C02372EE7B00515C4C /* GoogleService-Info.plist */,
 			);
 			path = pointchat;
+			sourceTree = "<group>";
+		};
+		E21CD8BB2372ECCE00515C4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E21CD8A92372ECBE00515C4C /* MianPageVC.swift */,
+				E21CD8AB2372ECBE00515C4C /* GroupsVC.swift */,
+				E2EF924C237353B200E5EFDA /* MianVC.swift */,
+				E2EF924E2373540700E5EFDA /* LoginVC.swift */,
+				E2686E1E2374E82300C6AD43 /* ProfileVC.swift */,
+				E2753B482375AD8C002D9D8E /* CreatePostVC.swift */,
+				E2F5434E2378B6DA00614F5C /* CreateGroupVC.swift */,
+				E29D84AD2380B12900B89493 /* GroupFeedVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E21CD8BC2372ECD800515C4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2EF92502373546500E5EFDA /* CustomTF.swift */,
+				E2C17A6123736BBD00968EFF /* ShadowView.swift */,
+				E29BEAD22376D9E300EF3C9D /* PostCell.swift */,
+				E2F543502378C3E200614F5C /* CreateGroupCell.swift */,
+				E2AFEAD1237AF8C40094BA33 /* GroupCell.swift */,
+				E29D84AB2380B10300B89493 /* GroupFeedCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E21CD8BD2372ECDC00515C4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E29BEAD42376DDEB00EF3C9D /* Message.swift */,
+				E2E5DE9F237B6AF900ADD851 /* Group.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E21CD8BE2372ECE100515C4C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E2753B4A2375B258002D9D8E /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E21CD8BF2372ECE500515C4C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2A939332372F5DF000B60C4 /* DataServices.swift */,
+				E23641CC23738F16002CF3D9 /* AuthServices.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21CD8B82372ECBE00515C4C /* Build configuration list for PBXNativeTarget "pointchat" */;
 			buildPhases = (
+				67AD2560A658BAFD895E1083 /* [CP] Check Pods Manifest.lock */,
 				E21CD89E2372ECBD00515C4C /* Sources */,
 				E21CD89F2372ECBD00515C4C /* Frameworks */,
 				E21CD8A02372ECBD00515C4C /* Resources */,
+				8F0CADC363A661E0D68D850E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E21CD8B42372ECBE00515C4C /* LaunchScreen.storyboard in Resources */,
+				E21CD8C12372EE7B00515C4C /* GoogleService-Info.plist in Resources */,
 				E21CD8B12372ECBE00515C4C /* Assets.xcassets in Resources */,
 				E21CD8AF2372ECBE00515C4C /* Main.storyboard in Resources */,
 			);
@@ -136,14 +257,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67AD2560A658BAFD895E1083 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pointchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0CADC363A661E0D68D850E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pointchat/Pods-pointchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pointchat/Pods-pointchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pointchat/Pods-pointchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E21CD89E2372ECBD00515C4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21CD8AC2372ECBE00515C4C /* SecondViewController.swift in Sources */,
-				E21CD8AA2372ECBE00515C4C /* FirstViewController.swift in Sources */,
+				E2C17A6223736BBD00968EFF /* ShadowView.swift in Sources */,
+				E29D84AE2380B12900B89493 /* GroupFeedVC.swift in Sources */,
+				E2A939342372F5DF000B60C4 /* DataServices.swift in Sources */,
+				E2EF924D237353B200E5EFDA /* MianVC.swift in Sources */,
+				E2F543512378C3E200614F5C /* CreateGroupCell.swift in Sources */,
+				E2EF924F2373540700E5EFDA /* LoginVC.swift in Sources */,
+				E21CD8AC2372ECBE00515C4C /* GroupsVC.swift in Sources */,
+				E2E5DEA0237B6AF900ADD851 /* Group.swift in Sources */,
+				E23641CD23738F16002CF3D9 /* AuthServices.swift in Sources */,
+				E21CD8AA2372ECBE00515C4C /* MianPageVC.swift in Sources */,
+				E29BEAD32376D9E300EF3C9D /* PostCell.swift in Sources */,
+				E2AFEAD2237AF8C40094BA33 /* GroupCell.swift in Sources */,
+				E2F5434F2378B6DA00614F5C /* CreateGroupVC.swift in Sources */,
 				E21CD8A62372ECBE00515C4C /* AppDelegate.swift in Sources */,
+				E2753B492375AD8C002D9D8E /* CreatePostVC.swift in Sources */,
+				E2753B4B2375B258002D9D8E /* Extension.swift in Sources */,
+				E29D84AC2380B10300B89493 /* GroupFeedCell.swift in Sources */,
+				E2EF92512373546500E5EFDA /* CustomTF.swift in Sources */,
+				E29BEAD52376DDEB00EF3C9D /* Message.swift in Sources */,
+				E2686E1F2374E82300C6AD43 /* ProfileVC.swift in Sources */,
 				E21CD8A82372ECBE00515C4C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +466,7 @@
 		};
 		E21CD8B92372ECBE00515C4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 351B535AA9731BC30A69CE0B /* Pods-pointchat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,13 +478,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.DevTech.pointchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E21CD8BA2372ECBE00515C4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA573FDB780093D0A968EE3 /* Pods-pointchat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -315,7 +497,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ahmed.DevTech.pointchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
